@@ -38,7 +38,8 @@ app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help',
     name: 'Rockey Simmons',
-    helpText: 'This page was created to help with any Q&A you may have.'
+    helpText:
+      'This page was created to help with any questions you may have. Please contact me at codenamerockey@gmail.com'
   });
 });
 
